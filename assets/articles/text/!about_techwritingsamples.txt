@@ -1,0 +1,28 @@
+Welcome to my technical writing and content showcase - a curated collection of technical writing samples crafted with precision and expertise. These samples are essentially technical writing about technical, and the topics include the typically used frameworks used for creating and deploying content, as well as other subjects related to technical content creation. A summary of some of these topics is below:
+
+Document Frameworks Explored:
+DITA (Darwin Information Typing Architecture):
+DITA provides a structured and modular approach to content creation, allowing for the development of topics that can be easily reused and repurposed. Our articles explore various DITA topics, such as typical elements and attributes, as well as many other basic DITA concepts.
+
+Docbook:
+Docbook, an XML-based documentation system, allows for the creation of high-quality, print and web-ready documents. Dive into our Docbook samples to experience the flexibility and robustness it brings to our technical communication.
+
+ePub:
+The ePub format is synonymous with digital publishing, offering a dynamic and adaptable platform for distributing documentation. Our ePub sample (An ebook about Linux) showcases how we can leverage this format to deliver engaging and accessible content.
+
+TEI (Text Encoding Initiative):
+TEI is instrumental in encoding and representing literary and linguistic texts for online research and analysis. Discover how TEI enriches our technical writing with a focus on scholarly and critical content.
+
+OpenAPI:
+In the realm of API documentation, OpenAPI provides a standardized way to describe RESTful APIs. Samples in this section describe OpenAPI's Swagger documentation when compared to OpenAPI's Test Scenario documentation. 
+
+Authoring Tools used:
+Our commitment to excellence extends beyond frameworks to the tools we employ for crafting technical documentaiton and deploying it to the web. I used Oxygen XML Author and JetBrains PHP Storm to create this site.
+
+Oxygen XML Author:
+Oxygen XML Author provides a comprehensive authoring environment, enabling content creators like me to focus on content creation while benefiting from features like intelligent content completion and a robust validation engine.
+
+JetBrains PHP Storm:
+As a versatile Integrated Development Environment (IDE), JetBrains PHP Storm offers advanced code editing, debugging, and version control capabilities that are perfect for this custom content management system.
+
+

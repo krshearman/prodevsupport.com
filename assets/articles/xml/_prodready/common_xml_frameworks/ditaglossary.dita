@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="dita_glossary">
+    <title>Glossary - Common Dita Terms</title>
+    <glossentry id="acronym">
+        <glossterm>Acronym:</glossterm>
+        <glossdef>An abbreviation formed from the initial letters of a phrase or a series of words, often used in DITA content for concise representation.</glossdef>
+    </glossentry>
+    
+    <glossentry id="attribute">
+        <glossterm>Attribute:</glossterm>
+        <glossdef>A property or characteristic associated with an XML element, providing additional information about the element.</glossdef>
+    </glossentry>
+    
+    <glossentry id="authoring-tool">
+        <glossterm>Authoring Tool:</glossterm>
+        <glossdef>Software used for creating, editing, and managing DITA content, providing a user-friendly interface for authors.</glossdef>
+    </glossentry>
+    
+    <glossentry id="block-element">
+        <glossterm>Block Element:</glossterm>
+        <glossdef>An XML element that can contain other elements, often used to define larger structural components in DITA.</glossdef>
+    </glossentry>
+    
+    <glossentry id="bookmap">
+        <glossterm>Bookmap:</glossterm>
+        <glossdef>A DITA map specialization designed for authoring and organizing book-like content, such as manuals or guides.</glossdef>
+    </glossentry>
+    
+    <glossentry id="conref">
+        <glossterm>Conref (Content Reference):</glossterm>
+        <glossdef>A mechanism in DITA that allows content to be reused by referencing it from one topic to another.</glossdef>
+    </glossentry>
+    
+    <glossentry id="dita">
+        <glossterm>DITA (Darwin Information Typing Architecture):</glossterm>
+        <glossdef>An XML-based standard for creating and organizing modular and reusable content for technical documentation.</glossdef>
+    </glossentry>
+    
+    <glossentry id="dita-map">
+        <glossterm>DITA Map:</glossterm>
+        <glossdef>A file that organizes and links together DITA topics, defining the structure and hierarchy of documentation.</glossdef>
+    </glossentry>
+    
+    <glossentry id="domain">
+        <glossterm>Domain:</glossterm>
+        <glossdef>A specific area of knowledge or subject matter represented in DITA, often indicated by a specialized DTD or schema.</glossdef>
+    </glossentry>
+    
+    <glossentry id="element">
+        <glossterm>Element:</glossterm>
+        <glossdef>A fundamental building block in XML and DITA, representing a component of structured content.</glossdef>
+    </glossentry>
+    
+    <glossentry id="filter">
+        <glossterm>Filter:</glossterm>
+        <glossdef>A mechanism to selectively include or exclude content during the publishing process based on specified criteria.</glossdef>
+    </glossentry>
+    
+    <glossentry id="html5">
+        <glossterm>HTML5:</glossterm>
+        <glossdef>A markup language used for structuring and presenting content on the web, often integrated with DITA publishing.</glossdef>
+    </glossentry>
+    
+    <glossentry id="keyref">
+        <glossterm>Keyref:</glossterm>
+        <glossdef>A DITA feature that enables the reuse of key-based content references, facilitating consistent information across topics.</glossdef>
+    </glossentry>
+    
+    <glossentry id="learning-specialization">
+        <glossterm>Learning and Training Specialization:</glossterm>
+        <glossdef>A DITA specialization tailored for creating instructional and training materials.</glossdef>
+    </glossentry>
+    
+    <glossentry id="linking">
+        <glossterm>Linking:</glossterm>
+        <glossdef>The process of creating hyperlinks between DITA topics or other resources to establish connections and references.</glossdef>
+    </glossentry>
+    
+    <glossentry id="metadata">
+        <glossterm>Metadata:</glossterm>
+        <glossdef>Information about content, such as title, author, or keywords, providing context and facilitating organization.</glossdef>
+    </glossentry>
+    
+    <glossentry id="nested-element">
+        <glossterm>Nested Element:</glossterm>
+        <glossdef>An XML element contained within another element, forming a hierarchical structure in DITA content.</glossdef>
+    </glossentry>
+    
+    <glossentry id="output-format">
+        <glossterm>Output Format:</glossterm>
+        <glossdef>The desired presentation or delivery format for DITA content, such as PDF, HTML, or other publishing outputs.</glossdef>
+    </glossentry>
+    
+    <glossentry id="pdf2">
+        <glossterm>PDF2:</glossterm>
+        <glossdef>A DITA-OT transformation type for generating PDF output from DITA content.</glossdef>
+    </glossentry>
+    
+    <glossentry id="profile">
+        <glossterm>Profile:</glossterm>
+        <glossdef>A predefined set of rules or configurations that can be applied to DITA content during processing.</glossdef>
+    </glossentry>
+    
+    <glossentry id="specialization">
+        <glossterm>Specialization:</glossterm>
+        <glossdef>The process of extending or customizing DITA to create domain-specific structures and rules.</glossdef>
+    </glossentry>
+    
+    <glossentry id="stub">
+        <glossterm>Stub:</glossterm>
+        <glossdef>A placeholder topic in a DITA map, often used to reserve a location for future content.</glossdef>
+    </glossentry>
+    
+    <glossentry id="subject-scheme">
+        <glossterm>Subject Scheme:</glossterm>
+        <glossdef>A controlled vocabulary or taxonomy used to categorize and organize DITA content.</glossdef>
+    </glossentry>
+    
+    <glossentry id="task-specialization">
+        <glossterm>Task Specialization:</glossterm>
+        <glossdef>A DITA specialization designed for creating procedural and instructional content, such as task-oriented topics.</glossdef>
+    </glossentry>
+    
+    <glossentry id="topic">
+        <glossterm>Topic:</glossterm>
+        <glossdef>The fundamental unit of content in DITA, representing a standalone piece of information.</glossdef>
+    </glossentry>
+    
+    <glossentry id="transclusion">
+        <glossterm>Transclusion:</glossterm>
+        <glossdef>The inclusion of content from one DITA topic into another using the xref element.</glossdef>
+    </glossentry>
+    
+    <glossentry id="uri">
+        <glossterm>Uniform Resource Identifier (URI):</glossterm>
+        <glossdef>A string of characters used to identify and locate resources, such as DITA topics or images.</glossdef>
+    </glossentry>
+    
+    <glossentry id="variable">
+        <glossterm>Variable:</glossterm>
+        <glossdef>A placeholder for values that can be dynamically replaced during the publishing process.</glossdef>
+    </glossentry>
+    
+    <glossentry id="versioning">
+        <glossterm>Versioning:</glossterm>
+        <glossdef>The management and tracking of different versions of DITA content, often used in collaborative authoring environments.</glossdef>
+    </glossentry>
+    
+    <glossentry id="wysiwyg">
+        <glossterm>WYSIWYG (What You See Is What You Get):</glossterm>
+        <glossdef>An authoring mode in which the content appears as it will be presented in the final output, simplifying the editing process.</glossdef>
+    </glossentry>
+    
+    <glossentry id="xhtml">
+        <glossterm>XHTML:</glossterm>
+        <glossdef>A markup language that extends HTML, providing compatibility with XML and used in DITA content for web-based outputs.</glossdef>
+    </glossentry>
+    
+</glossgroup>
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Common XML Frameworks</title>
+    <topicref href="dita.dita" navtitle="Decoding DITA: A Journey through History and Applications"/>
+    <topicref href="docbook.dita"
+        navtitle="Deciphering DocBook: A Chronicle of Evolution and Practical Applications"/>
+    <topicref href="epub.dita"
+        navtitle="Unveiling ePub: A Chronicle of Evolution and Ubiquitous Applications"/>
+    <topicref href="openapi.dita"
+        navtitle="Navigating the OpenAPI Landscape: A Historical Odyssey and Practical Applications"/>
+    <topicref href="tei.dita"
+        navtitle="TEI (Text Encoding Initiative): A Historical Odyssey and Diverse Applications"/>
+    <topicref href="ditaglossary.dita" navtitle="Glossary - Common DITA Terms"/>
+    <topicref href="dita_instructionalguide.dita"
+        navtitle="Crafting DITA Topics and Maps: A Step-by-Step Guide with Oxygen XML Author"/>
+</map>

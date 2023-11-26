@@ -1,0 +1,51 @@
+DITA (Darwin Information Typing Architecture) uses various attributes to provide additional information and metadata for elements in XML documents. Here are some of the major DITA attributes commonly used in DITA documents:
+
+@id:
+
+The unique identifier for an element within a document. It helps in referencing and linking to specific elements.
+@class:
+
+Specifies one or more classification values for an element. It is used to categorize elements and may influence processing or styling.
+@outputclass:
+
+Similar to @class, but specifically used for indicating the classification of content for processing or styling in the output.
+@audience:
+
+Specifies the target audience for the content. It helps in tailoring content to specific audiences.
+@platform:
+
+Indicates the target platform or operating system for which the content is relevant.
+@product:
+
+Specifies the product to which the content is related. This can be useful in product documentation where content may be specific to different product versions.
+@props:
+
+A set of space-separated key-value pairs used to provide additional information or processing instructions. It can be used for custom metadata.
+@status:
+
+Indicates the status of the content, such as "draft," "review," or "final." It helps in managing the lifecycle of content.
+@rev:
+
+Specifies the revision information for the content, such as a version number or date.
+@importance:
+
+Indicates the importance of the content, helping in prioritizing information for different audiences or contexts.
+@search:
+
+Specifies whether the content should be included or excluded from search indexes.
+@locktitle:
+
+Prevents the title of an element from being changed during processing. It is useful for maintaining consistent titles.
+@lockmeta:
+
+Prevents the metadata (attributes) of an element from being changed during processing.
+@translate:
+
+Indicates whether the content should be translated. It can be set to "yes" or "no."
+@reproducible:
+
+Specifies whether the content is intended to be reproduced exactly in output.
+@audience:
+
+Specifies the target audience for the content, allowing for audience-specific customization.
+These attributes provide a way to add metadata, context, and processing instructions to DITA elements, enabling flexibility and customization in how the content is managed and presented. Keep in mind that the use of attributes may vary depending on the specific DITA specialization and the requirements of the documentation project.

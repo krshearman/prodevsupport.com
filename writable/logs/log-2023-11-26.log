@@ -1,0 +1,36 @@
+CRITICAL - 2023-11-26 18:59:13 --> Invalid file: "pages/err404.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/err404.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/err404', [], true)
+ 3 APPPATH\Controllers\Pages.php(23): view('pages/err404')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->pages('samples')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 19:10:53 --> Invalid file: "pages/err404.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/err404.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/err404', [], true)
+ 3 APPPATH\Controllers\Pages.php(23): view('pages/err404')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->pages('samples')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 19:10:56 --> Invalid file: "pages/err404.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/err404.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/err404', [], true)
+ 3 APPPATH\Controllers\Pages.php(23): view('pages/err404')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->pages('samples')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 19:10:58 --> Invalid file: "pages/err404.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/err404.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/err404', [], true)
+ 3 APPPATH\Controllers\Pages.php(23): view('pages/err404')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->pages('samples')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

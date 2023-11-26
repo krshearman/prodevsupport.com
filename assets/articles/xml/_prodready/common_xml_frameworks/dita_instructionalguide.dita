@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="dita_instructionalguide">
+    <title>Crafting DITA Topics and Maps: A Step-by-Step Guide with Oxygen XML Author</title>
+    <prolog>
+        <author>Kendall Shearman</author>
+        <permissions view="all"/>
+        <metadata>
+            <audience/>
+            <category>end user</category>
+            <keywords>
+                <keyword>DITA</keyword>
+                <keyword>technical writing</keyword>
+                <keyword>xml</keyword>
+                <keyword>xml authoring</keyword>
+                <keyword>xml framework</keyword>
+                <keyword>xml publishing</keyword>
+            </keywords>
+        </metadata>
+        <resourceid appid="1000" appname="krstechwriting.com"/>
+    </prolog>
+    <body>
+        <ul>
+            <li><b>Step 1:</b> Installing Oxygen XML Author
+                <ul>
+                    <li>Before diving into DITA authoring, ensure you have Oxygen XML Author installed on your system. You can download the software from the official <xref href="https://www.oxygenxml.com/xml_author.html" format="html" scope="external"></xref>Oxygen XML website.</li>
+                </ul>
+            </li>
+            <li><b>Step 2:</b> Launching Oxygen XML Author
+                <ul>
+                    <li>Once installed, launch Oxygen XML Author. You'll be greeted with a welcoming interface that provides a variety of options for your DITA authoring needs.</li>
+                </ul>
+            </li>
+            <li><b>Step 3:</b> Creating a New DITA Topic
+                <ul>
+                    <li>Navigate to the Menu:
+                        <ol>
+                            <li>Select "File" from the top menu.</li>
+                            <li>Choose "New" and then "DITA" from the submenu.</li>
+                            <li>Click on "Topic."</li>
+                        </ol>
+                    </li>
+                    <li>Select DITA Topic Type:
+                        <ol>
+                            <li>In the ensuing dialog, choose the type of DITA topic you want to create (e.g., Concept, Task, Reference).</li>
+                            <li>Click "Finish."</li>
+                        </ol>
+                    </li>
+                    <li>Authoring in the Editor:
+                        <ol>
+                            <li>Oxygen XML Author opens a DITA topic in its editor.</li>
+                            <li>Start authoring your content using the DITA elements available in the toolbar.</li>
+                            <li>Leverage Oxygen's intelligent content completion and validation features to ensure adherence to DITA standards.</li>
+                        </ol>
+                    </li>
+                    <li>Save Your DITA Topic:
+                        <ol>
+                            <li>Once you've crafted your DITA topic, save it by selecting "File" and then "Save" from the menu.</li>
+                            <li>Choose a location and provide a meaningful filename.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li><b>Step 4:</b> Creating Additional DITA Topics
+                <ul>
+                    <li>Repeat the process outlined in Step 3 to create additional DITA topics for different sections or topics within your documentation. Oxygen XML Author streamlines the authoring process, allowing you to focus on content creation while ensuring DITA compliance.</li>
+                </ul>
+            </li>
+            <li><b>Step 5:</b> Creating a DITA Map
+                <ul>
+                    <li>Now that you've authored individual DITA topics, the next step is to organize them into a cohesive structure using a DITA map.</li>
+                    <li>Navigate to the Menu:
+                        <ol>
+                            <li>Select "File" from the top menu.</li>
+                            <li>Choose "New" and then "DITA" from the submenu.</li>
+                            <li>Click on "Map."</li>
+                        </ol>
+                    </li>
+                    <li>Add DITA Topics to the Map:
+                        <ol>
+                            <li>Oxygen XML Author opens a blank DITA map in the editor.</li>
+                            <li>Drag and drop the previously created DITA topics from the Project view onto the DITA map.</li>
+                            <li>Arrange the topics in the desired order to reflect the structure of your documentation.</li>
+                        </ol>
+                    </li>
+                    <li>Create Map Hierarchy:
+                        <ol>
+                            <li>Utilize the DITA map editor to create hierarchy and organization within your map.</li>
+                            <li>Right-click on the DITA map editor and choose options such as "Insert Topicref" to add references to your DITA topics.</li>
+                        </ol>
+                    </li>
+                    <li>Save Your DITA Map:
+                        <ol>
+                            <li>Save the DITA map by selecting "File" and then "Save" from the menu.</li>
+                            <li>Provide a meaningful filename and choose an appropriate location.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li><b>Step 6:</b> Previewing Your Documentation
+                <ul>
+                    <li>Oxygen XML Author enables you to preview your DITA documentation to ensure it appears as intended. Follow these steps:</li>
+                    <li>Navigate to the Menu:
+                        <ol>
+                            <li>Select "Document" from the top menu.</li>
+                            <li>Choose "Show Preview" to open a preview window.</li>
+                        </ol>
+                    </li>
+                    <li>Review the Preview:
+                        <ol>
+                            <li>Oxygen XML Author generates a preview of your DITA documentation.</li>
+                            <li>Check the formatting, structure, and overall appearance to ensure it meets your expectations.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li><b>Step 7:</b> Fine-Tuning and Editing
+                <ul>
+                    <li>Oxygen XML Author provides a host of features for fine-tuning and editing your DITA content. Explore the following functionalities:</li>
+                    <li>Structured Editing:
+                        <ol>
+                            <li>Leverage Oxygen's structured editing features to navigate and edit DITA elements easily.</li>
+                            <li>Use the Outline view to get an overview of the document structure.</li>
+                        </ol>
+                    </li>
+                    <li>Validation:
+                        <ol>
+                            <li>Ensure your DITA content adheres to the DITA standard by utilizing Oxygen's validation features.</li>
+                            <li>Resolve any validation errors or warnings to maintain document integrity.</li>
+                        </ol>
+                    </li>
+                    <li>DITA Maps Manager:
+                        <ol>
+                            <li>Access the DITA Maps Manager to visualize and manage the structure of your DITA map easily.</li>
+                            <li>Rearrange topics, add new references, or remove existing ones directly from the manager.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li><b>Step 8:</b> Generating Output
+                <ul>
+                    <li>Once you are satisfied with your DITA documentation, Oxygen XML Author allows you to generate output in various formats, such as HTML, PDF, or others.</li>
+                    <li>Navigate to the Menu:
+                        <ol>
+                            <li>Select "Document" from the top menu.</li>
+                            <li>Choose "Transform" to access the transformation scenarios.</li>
+                        </ol>
+                    </li>
+                    <li>Choose Transformation Scenario:
+                        <ol>
+                            <li>Select a predefined transformation scenario based on the output format you desire (e.g., HTML, PDF, etc.).</li>
+                            <li>Run the Transformation:
+                                <ul>
+                                    <li>Click "Apply associated transformation scenario" to generate the output.</li>
+                                    <li>Oxygen XML Author processes your DITA documentation and produces the specified output format.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>Review the Output:
+                        <ol>
+                            <li>Open the generated output to review how your DITA documentation appears in its final form.</li>
+                            <li>Make any necessary adjustments or edits based on the output review.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li><b>Step 9:</b> Saving and Publishing
+                <ul>
+                    <li>After generating the final output, save your work and proceed to publish your DITA documentation:</li>
+                    <li>Save Your Changes:
+                        <ol>
+                            <li>Save any edits or changes made during the preview and output generation.</li>
+                        </ol>
+                    </li>
+                    <li>Publishing Options:
+                        <ol>
+                            <li>Depending on your publishing requirements, you can publish the documentation on a web server, share it internally, or distribute it through appropriate channels.</li>
+                        </ol>
+                    </li>
+                    <li>Distribute Your Documentation:
+                        <ol>
+                            <li>Share the published documentation with your intended audience, whether it's internal teams, clients, or the wider public.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <p>Conclusion: Mastering DITA Authoring with Oxygen XML Author
+            Creating DITA topics and maps using Oxygen XML Author streamlines the authoring process, providing a user-friendly environment for structured content creation. By following this step-by-step guide, you can harness the power of DITA and Oxygen XML Author to produce well-organized, standards-compliant, and professionally presented technical documentation. Whether you are a seasoned technical writer or a newcomer to structured authoring, Oxygen XML Author's intuitive interface and robust features empower you to navigate the complexities of DITA with ease.</p>
+        
+    </body>
+</topic>

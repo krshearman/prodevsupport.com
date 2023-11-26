@@ -1,0 +1,42 @@
+DITA Document Type Definitions (DTD)
+DITA (Darwin Information Typing Architecture) is an XML-based standard for designing, writing, managing, and publishing information. DITA uses Document Type Definitions (DTDs) or XML Schemas to define the structure and constraints of valid DITA documents. Here are the main DTDs used in DITA:
+
+DITA Topic DTD:
+
+This DTD defines the basic building block of content in DITA, known as a "topic." Topics represent standalone units of information, such as concepts, tasks, or reference material.
+DITA Map DTD:
+
+The DITA Map DTD is used to define the structure of a DITA map. DITA maps are documents that organize and link together individual DITA topics to create a coherent information set.
+DITA Bookmap DTD:
+
+A specialization of the DITA map, the DITA Bookmap DTD is used specifically for creating book-oriented structures. It allows you to organize and sequence multiple topics into a book.
+DITA Task DTD:
+
+A specialization of the DITA topic, the DITA Task DTD is used to define topics specifically for procedural information, such as step-by-step instructions.
+DITA Concept DTD:
+
+Another specialization of the DITA topic, the DITA Concept DTD is used for defining topics that convey conceptual information.
+DITA Reference DTD:
+
+This specialization of the DITA topic is used for topics that provide reference information, such as definitions, specifications, or lists.
+DITA Glossary DTD:
+
+The DITA Glossary DTD is used for creating glossary entries. Glossary entries contain definitions of terms used in DITA content.
+DITA Learning DTD:
+
+The DITA Learning DTD is used for creating learning and training materials. It includes specializations for topics related to learning objectives, assessments, and other educational content.
+DITA Troubleshooting DTD:
+
+This DTD is used for creating troubleshooting topics that help users diagnose and solve problems.
+DITA Hazardstatement DTD:
+
+The DITA Hazardstatement DTD is used for topics that convey information about potential hazards associated with a product or process.
+DITA Machine Industry Task DTD:
+
+A specialization of the DITA Task DTD, this is used in the context of machine industry documentation.
+These DTDs provide a framework for creating structured, modular, and reusable content in DITA, allowing for flexibility in organizing and presenting information across different types of documents. Note that XML Schemas are also used in addition to DTDs for defining the structure of DITA documents in some implementations.
+
+
+
+
+

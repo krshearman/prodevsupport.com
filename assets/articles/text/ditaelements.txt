@@ -1,0 +1,72 @@
+DITA (Darwin Information Typing Architecture) defines a set of elements that serve as building blocks for creating structured, modular, and reusable content. The following is a list of major DITA elements:
+
+<topic>:
+
+The root element for a DITA topic. It can contain various child elements, depending on the type of information being conveyed.
+<title>:
+
+Represents the title of a DITA topic. It is a child element of <topic>.
+<body>:
+
+Contains the main content of a DITA topic. It is a child element of <topic>.
+<section>:
+
+Represents a logical section within a topic. It can contain other elements like <title>, <body>, and <section>.
+<p> (Paragraph):
+
+Represents a paragraph of text within the <body> of a topic.
+<ul> (Unordered List) and <ol> (Ordered List):
+
+Used to define lists. They can contain <li> (List Item) elements.
+<li> (List Item):
+
+Represents an item in a list, either unordered or ordered.
+<fig> (Figure):
+
+Represents a figure or image within a DITA topic.
+<table>:
+
+Defines a table within a DITA topic. It can contain <row> and <entry> elements.
+<row>:
+
+Represents a row within a table. It can contain <entry> elements.
+<entry>:
+
+Represents a table cell within a <row>.
+<pre> (Preformatted Text):
+
+Represents preformatted or fixed-width text. It is often used for displaying code snippets.
+<codeph> (Code Phrase):
+
+Represents a phrase or word within text that should be treated as code.
+<b> (Bold) and <i> (Italic):
+
+Used for styling text as bold or italic.
+<ph> (Placeholder):
+
+Represents a placeholder for variable or user-provided content.
+<note>:
+
+Represents a note or additional information associated with the main content.
+<warning>, <caution>, <danger>:
+
+Represents warning, caution, and danger messages, respectively.
+<link>:
+
+Represents a hyperlink within the content. It can link to other topics, external resources, or anchors within the same document.
+<keyword>:
+
+Represents a keyword or index term within the content.
+<index-see> and <index-see-also>:
+
+Used for creating index entries.
+<concept>, <task>, <reference>:
+
+Specialized topic types for conveying different types of information: conceptual, procedural (task), and reference.
+<map>:
+
+The root element for a DITA map. It contains <title> and <topicref> elements, defining the organization and structure of a collection of DITA topics.
+<topicref>:
+
+Represents a reference to a DITA topic within a DITA map. It can include attributes such as @href to specify the location of the referenced topic.
+These are some of the major DITA elements that authors use to structure and organize content. The specific elements used may vary depending on the type of information being conveyed and the DITA specialization in use.
