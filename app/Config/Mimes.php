@@ -138,8 +138,8 @@ class Mimes
             'application/x-gzip-compressed',
         ],
         'z'     => 'application/x-compress',
-        'xhtml' => 'application/xhtml+xml',
-        'xht'   => 'application/xhtml+xml',
+        'xhtml' => 'application/xhtml+xmlframeworks',
+        'xht'   => 'application/xhtml+xmlframeworks',
         'zip'   => [
             'application/x-zip',
             'application/zip',
@@ -287,15 +287,15 @@ class Mimes
         ],
         'rtx' => 'text/richtext',
         'rtf' => 'text/rtf',
-        'xml' => [
-            'application/xml',
-            'text/xml',
+        'xmlframeworks' => [
+            'application/xmlframeworks',
+            'text/xmlframeworks',
             'text/plain',
         ],
         'xsl' => [
-            'application/xml',
+            'application/xmlframeworks',
             'text/xsl',
-            'text/xml',
+            'text/xmlframeworks',
         ],
         'mpeg' => 'video/mpeg',
         'mpg'  => 'video/mpeg',
@@ -404,7 +404,7 @@ class Mimes
         'aac'  => 'audio/x-acc',
         'm4u'  => 'application/vnd.mpegurl',
         'm3u'  => 'text/plain',
-        'xspf' => 'application/xspf+xml',
+        'xspf' => 'application/xspf+xmlframeworks',
         'vlc'  => 'application/videolan',
         'wmv'  => [
             'video/x-ms-wmv',
@@ -424,9 +424,9 @@ class Mimes
             'application/x-zip',
         ],
         'kml' => [
-            'application/vnd.google-earth.kml+xml',
-            'application/xml',
-            'text/xml',
+            'application/vnd.google-earth.kml+xmlframeworks',
+            'application/xmlframeworks',
+            'text/xmlframeworks',
         ],
         'ics'  => 'text/calendar',
         'ical' => 'text/calendar',
@@ -457,10 +457,10 @@ class Mimes
             'application/x-compressed',
         ],
         'svg' => [
-            'image/svg+xml',
+            'image/svg+xmlframeworks',
             'image/svg',
-            'application/xml',
-            'text/xml',
+            'application/xmlframeworks',
+            'text/xmlframeworks',
         ],
         'vcf' => 'text/x-vcard',
         'srt' => [

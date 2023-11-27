@@ -465,7 +465,7 @@ class Toolbar
             helper('security');
 
             // Negotiate the content-type to format the output
-            $format = $request->negotiate('media', ['text/html', 'application/json', 'application/xml']);
+            $format = $request->negotiate('media', ['text/html', 'application/json', 'application/xmlframeworks']);
             $format = explode('/', $format)[1];
 
             $filename = sanitize_filename('debugbar_' . $request->getGet('debugbar_time'));
@@ -519,7 +519,7 @@ class Toolbar
                 $output    = $formatter->format($data);
                 break;
 
-            case 'xml':
+            case 'xmlframeworks':
                 $formatter = new XMLFormatter();
                 $output    = $formatter->format($data);
                 break;

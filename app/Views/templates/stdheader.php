@@ -41,7 +41,7 @@
         <nav id="navbar" class="navhover navbar">
             <ul>
                 <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>">Home</a></li>
-                <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>about">About</a></li>
+                <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>about">About Me</a></li>
                 <!--<li><a class="nav-link scrollto" href="<?php echo base_url(); ?>">Roles</a></li>-->
                 <!--<li><a class="nav-link scrollto " href="#work">Work</a></li>
                 <li><a class="nav-link scrollto " href="#blog">Blog</a></li>-->

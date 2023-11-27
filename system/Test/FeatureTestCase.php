@@ -104,7 +104,7 @@ class FeatureTestCase extends CIUnitTestCase
     /**
      * Set the format the request's body should have.
      *
-     * @param string $format The desired format. Currently supported formats: xml, json
+     * @param string $format The desired format. Currently supported formats: xmlframeworks, json
      *
      * @return $this
      */
@@ -377,8 +377,8 @@ class FeatureTestCase extends CIUnitTestCase
             $formatMime = '';
             if ($this->bodyFormat === 'json') {
                 $formatMime = 'application/json';
-            } elseif ($this->bodyFormat === 'xml') {
-                $formatMime = 'application/xml';
+            } elseif ($this->bodyFormat === 'xmlframeworks') {
+                $formatMime = 'application/xmlframeworks';
             }
             if (! empty($formatMime) && ! empty($params)) {
                 $formatted = Services::format()->getFormatter($formatMime)->format($params);

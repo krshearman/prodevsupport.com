@@ -57,7 +57,7 @@ class XmlPlugin extends AbstractPlugin
 
     public function parse(&$var, Value &$o, int $trigger): void
     {
-        if ('<?xml' !== \substr($var, 0, 5)) {
+        if ('<?xmlframeworks' !== \substr($var, 0, 5)) {
             return;
         }
 

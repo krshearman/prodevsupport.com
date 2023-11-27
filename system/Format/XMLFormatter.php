@@ -39,8 +39,8 @@ class XMLFormatter implements FormatterInterface
             throw FormatException::forMissingExtension(); // @codeCoverageIgnore
         }
 
-        $options = $config->formatterOptions['application/xml'] ?? 0;
-        $output  = new SimpleXMLElement('<?xml version="1.0"?><response></response>', $options);
+        $options = $config->formatterOptions['application/xmlframeworks'] ?? 0;
+        $output  = new SimpleXMLElement('<?xmlframeworks version="1.0"?><response></response>', $options);
 
         $this->arrayToXML((array) $data, $output);
 
@@ -95,6 +95,6 @@ class XMLFormatter implements FormatterInterface
         $key = preg_replace("/[^{$validName}-]+/u", '', $key);
         $key = preg_replace("/^[^{$startChar}]+/u", 'item$0', $key);
 
-        return preg_replace('/^(xml).*/iu', 'item$0', $key); // XML is a reserved starting word
+        return preg_replace('/^(xmlframeworks).*/iu', 'item$0', $key); // XML is a reserved starting word
     }
 }

@@ -84,7 +84,7 @@ class Result extends BaseResult
             SQLSRV_SQLTYPE_UDT              => 'udt',
             SQLSRV_SQLTYPE_VARBINARY        => 'varbinary',
             SQLSRV_SQLTYPE_VARCHAR          => 'varchar',
-            SQLSRV_SQLTYPE_XML              => 'xml',
+            SQLSRV_SQLTYPE_XML              => 'xmlframeworks',
         ];
 
         $retVal = [];

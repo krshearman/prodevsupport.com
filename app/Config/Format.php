@@ -26,8 +26,8 @@ class Format extends BaseConfig
      */
     public array $supportedResponseFormats = [
         'application/json',
-        'application/xml', // machine-readable XML
-        'text/xml', // human-readable XML
+        'application/xmlframeworks', // machine-readable XML
+        'text/xmlframeworks', // human-readable XML
     ];
 
     /**
@@ -43,8 +43,8 @@ class Format extends BaseConfig
      */
     public array $formatters = [
         'application/json' => JSONFormatter::class,
-        'application/xml'  => XMLFormatter::class,
-        'text/xml'         => XMLFormatter::class,
+        'application/xmlframeworks'  => XMLFormatter::class,
+        'text/xmlframeworks'         => XMLFormatter::class,
     ];
 
     /**
@@ -59,8 +59,8 @@ class Format extends BaseConfig
      */
     public array $formatterOptions = [
         'application/json' => JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES,
-        'application/xml'  => 0,
-        'text/xml'         => 0,
+        'application/xmlframeworks'  => 0,
+        'text/xmlframeworks'         => 0,
     ];
 
     /**

@@ -104,13 +104,13 @@ class ResourceController extends BaseResource
     /**
      * Set/change the expected response representation for returned objects
      *
-     * @param string $format json/xml
+     * @param string $format json/xmlframeworks
      *
      * @return void
      */
     public function setFormat(string $format = 'json')
     {
-        if (in_array($format, ['json', 'xml'], true)) {
+        if (in_array($format, ['json', 'xmlframeworks'], true)) {
             $this->format = $format;
         }
     }

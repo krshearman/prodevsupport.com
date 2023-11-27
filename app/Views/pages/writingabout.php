@@ -40,7 +40,7 @@
                             </div>
                             <h2><strong>Crafting Clarity: A Dive into Technical Writing, XML Authoring, and Key Frameworks</strong></h2>
                             <br>
-                            <ol>
+                            <ol class="lead">
                                 <li>
                                     <strong>Unveiling Technical Writing Style</strong>
                                     <ul>
@@ -71,8 +71,8 @@
                                     </ul>
                                 </li>
                             </ol>
-                            <strong>Conclusion: Symphony in Structure and Code</strong>
-                            <p>In the grand performance of technical writing, the notes of structure, conciseness, and accessibility harmonize seamlessly. XML authoring amplifies this symphony, bringing precision and adaptability to the forefront. The XML frameworks – DITA, DocBook, ePub, TEI, and OpenAPI – are the instruments in this orchestra, each with its unique melody, playing a crucial role in creating, organizing, and disseminating technical information.</p>
+                            <p class="lead"><strong>Conclusion: Symphony in Structure and Code</strong></p>
+                            <p class="lead">In the grand performance of technical writing, the notes of structure, conciseness, and accessibility harmonize seamlessly. XML authoring amplifies this symphony, bringing precision and adaptability to the forefront. The XML frameworks – DITA, DocBook, ePub, TEI, and OpenAPI – are the instruments in this orchestra, each with its unique melody, playing a crucial role in creating, organizing, and disseminating technical information.</p>
                         </div>
                         </div>
                     </div>

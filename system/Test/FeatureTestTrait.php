@@ -100,7 +100,7 @@ trait FeatureTestTrait
     /**
      * Set the format the request's body should have.
      *
-     * @param string $format The desired format. Currently supported formats: xml, json
+     * @param string $format The desired format. Currently supported formats: xmlframeworks, json
      *
      * @return $this
      */
@@ -376,8 +376,8 @@ trait FeatureTestTrait
             $formatMime = '';
             if ($this->bodyFormat === 'json') {
                 $formatMime = 'application/json';
-            } elseif ($this->bodyFormat === 'xml') {
-                $formatMime = 'application/xml';
+            } elseif ($this->bodyFormat === 'xmlframeworks') {
+                $formatMime = 'application/xmlframeworks';
             }
 
             if ($formatMime !== '') {

@@ -41,7 +41,7 @@
         <nav id="navbar" class="navhover navbar">
             <ul>
                 <li><a class="nav-link scrollto" href="#">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
+                <li><a class="nav-link scrollto" href="#about">About Me</a></li>
                 <li><a class="nav-link scrollto" href="#roles">Roles</a></li>
                 <!--<li><a class="nav-link scrollto " href="#work">Work</a></li>
                 <li><a class="nav-link scrollto " href="#blog">Blog</a></li>-->

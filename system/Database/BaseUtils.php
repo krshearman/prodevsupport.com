@@ -237,7 +237,7 @@ abstract class BaseUtils
         $tab     = $params['tab'];
         $element = $params['element'];
 
-        helper('xml');
+        helper('xmlframeworks');
         $xml = '<' . $root . '>' . $newline;
 
         while ($row = $query->getUnbufferedRow()) {

@@ -38,6 +38,10 @@
                                 <h4 class="title-a">
                                     DITA Projects
                                 </h4>
+                                <ul>
+                                    <li class="lead">LogicMonitor Concepts</li>
+                                    <li class="lead">XML Frameworks</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-md-5">

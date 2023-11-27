@@ -62,7 +62,7 @@ trait ResponseTrait
 
     /**
      * How to format the response data.
-     * Either 'json' or 'xml'. If blank will be
+     * Either 'json' or 'xmlframeworks'. If blank will be
      * determined through content negotiation.
      *
      * @var string
@@ -103,7 +103,7 @@ trait ResponseTrait
                 return $this->response->setJSON($output)->setStatusCode($status, $message);
             }
 
-            if ($this->format === 'xml') {
+            if ($this->format === 'xmlframeworks') {
                 return $this->response->setXML($output)->setStatusCode($status, $message);
             }
         }
@@ -318,7 +318,7 @@ trait ResponseTrait
 
         // Determine correct response type through content negotiation if not explicitly declared
         if (
-            (empty($this->format) || ! in_array($this->format, ['json', 'xml'], true))
+            (empty($this->format) || ! in_array($this->format, ['json', 'xmlframeworks'], true))
             && $this->request instanceof IncomingRequest
         ) {
             $mime = $this->request->negotiate(

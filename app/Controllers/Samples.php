@@ -10,4 +10,11 @@ class Samples extends BaseController
             . view('samples/'.$page)
             . view('templates/stdfooter');
     }
+
+  /*  public function samples($page): string
+    {
+        return view('templates/stdheader')
+            . view('samples/'.$page)
+            . view('templates/stdfooter');
+    }*/
 }

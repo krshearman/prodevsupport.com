@@ -124,7 +124,7 @@ trait ResponseTrait
 
     /**
      * Type of format the body is in.
-     * Valid: html, json, xml
+     * Valid: html, json, xmlframeworks
      *
      * @var string
      */
@@ -277,7 +277,7 @@ trait ResponseTrait
      */
     public function setXML($body)
     {
-        $this->body = $this->formatBody($body, 'xml');
+        $this->body = $this->formatBody($body, 'xmlframeworks');
 
         return $this;
     }
@@ -293,8 +293,8 @@ trait ResponseTrait
     {
         $body = $this->body;
 
-        if ($this->bodyFormat !== 'xml') {
-            $body = Services::format()->getFormatter('application/xml')->format($body);
+        if ($this->bodyFormat !== 'xmlframeworks') {
+            $body = Services::format()->getFormatter('application/xmlframeworks')->format($body);
         }
 
         return $body;
@@ -305,7 +305,7 @@ trait ResponseTrait
      * and sets the correct Content-Type header for our response.
      *
      * @param array|object|string $body
-     * @param string              $format Valid: json, xml
+     * @param string              $format Valid: json, xmlframeworks
      *
      * @return false|string
      *
