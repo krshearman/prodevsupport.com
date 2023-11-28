@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="box-shadow-full">
-                        <div class="row minht">
+                        <div class="row">
 
                             <div class="col-md-2">
                                 <div class="btn-group-vertical" role="group" aria-label="">
