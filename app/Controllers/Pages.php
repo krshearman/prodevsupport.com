@@ -14,14 +14,14 @@ class Pages extends BaseController
     public function pages($page): string
     {
 
-        if (file_exists(APPPATH.'views/pages/'.$page.'.php'))
+/*        if (file_exists(APPPATH.'views/pages/'.$page.'.php'))*/
             return view('templates/stdheader')
                 . view('pages/'.$page)
                 . view('templates/stdfooter');
-        else
+       /* else
             return view('templates/stdheader')
                 . view('pages/err404')
-                . view('templates/stdfooter');
+                . view('templates/stdfooter');*/
 
     }
 }
