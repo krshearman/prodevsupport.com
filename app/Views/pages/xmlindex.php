@@ -8,12 +8,10 @@
                 <div class="col-sm-12">
                     <div class="box-shadow-full">
                         <div class="row minht">
-
                             <div class="col-md-2">
                                 <div class="btn-group-vertical" role="group" aria-label="">
                                     <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writing">ABOUT</a></button>
                                     <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writingabout">INTRO</a></button>
-
                                     <!--                                    <button type="button" class="btn btn-dark">Samples</button>
                                     -->                                    <div class="btn-group" role="group">
                                         <button id="btnGroupDrop1" type="button" class="btn btn-outline-dark mybtngroup dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -33,20 +31,25 @@
 
                                 </div>
                             </div>
-                        <div class="col-md-5">
-                            <div class="title-box-2">
-                                <h4 class="title-a">
-                                    DITA Projects
-                                </h4>
-                                <p class="lead">Click the links below to visit my projects made using the DITA framework.</p>
-                                <ul>
-                                    <li class="lead"><a href="<?php echo base_url(); ?>lmindex">LogicMonitor Concepts</a></li>
-                                    <li class="lead"><a href="<?php echo base_url(); ?>xmlindex">XML Frameworks</a></li>
-                                </ul>
+                            <div class="col-md-10">
+                                <div class="title-box-2">
+                                    <h3 class="title-a">
+                                        Common XML Frameworks Map
+                                    </h3>
+                                </div>
+<!--                                <p class="lead title topictitle1">Common XML Frameworks Map</p>
+-->                                <nav>
+                                    <ul class="map lead">
+                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmldita">Decoding DITA: A Journey through History and Applications</a></li>
+                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmldocbook">Deciphering DocBook: A Chronicle of Evolution and Practical Applications</a></li>
+                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmlepub">Unveiling ePub: A Chronicle of Evolution and Ubiquitous Applications</a></li>
+                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmlopenapi">Navigating the OpenAPI Landscape: A Historical Odyssey and Practical Applications</a></li>
+                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmltei">TEI (Text Encoding Initiative): A Historical Odyssey and Diverse Applications</a></li>
+                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmlcommonditaterms">Glossary - Common Dita Terms</a></li>
+                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmlbasicditahowto">Crafting DITA Topics and Maps: A Step-by-Step Guide with Oxygen XML Author</a></li>
+                                    </ul>
+                                </nav>
                             </div>
-                        </div>
-                        <div class="col-md-5">
-
                         </div>
                     </div>
                 </div>

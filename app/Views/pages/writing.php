@@ -41,7 +41,7 @@
                             </p>
                             <h4>Document Frameworks Explored:</h4>
                             <ul class="lead">
-                                <strong><li>DITA (Darwin Information Typing Architecture):</strong>
+                                <strong><li><a href="<?php echo base_url(); ?>dita">DITA (Darwin Information Typing Architecture)</a>:</strong>
                                 <br>
                                 <p>DITA provides a structured and modular approach to content creation, allowing for the development of topics that can be easily reused and repurposed. Our articles explore various DITA topics, such as typical elements and attributes, as well as many other basic DITA concepts.
                                 </p>

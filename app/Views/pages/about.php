@@ -337,7 +337,7 @@
                             <img class="card-img-top" src="/assets/img/writing.jpg" alt="Card image cap">
                             <h5 class="card-title">Writing Samples</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" target="_blank" class="btn btn-primary">View</a>
+                            <a href="<?php echo base_url(); ?>writing" target="_blank" class="btn btn-primary">View</a>
                         </div>
                     </div>
                 </div>
