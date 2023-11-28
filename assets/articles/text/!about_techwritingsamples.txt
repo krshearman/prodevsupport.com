@@ -17,7 +17,7 @@ OpenAPI:
 In the realm of API documentation, OpenAPI provides a standardized way to describe RESTful APIs. Samples in this section describe OpenAPI's Swagger documentation when compared to OpenAPI's Test Scenario documentation. 
 
 Authoring Tools used:
-Our commitment to excellence extends beyond frameworks to the tools we employ for crafting technical documentaiton and deploying it to the web. I used Oxygen XML Author and JetBrains PHP Storm to create this site.
+My commitment to excellence extends beyond frameworks to the tools I employ for crafting technical documentation and deploying it to the web. I used Oxygen XML Author and JetBrains PHP Storm to create this site. CodeIgniter is the open source MVC framework used. Check out the code for this project on Github. 
 
 Oxygen XML Author:
 Oxygen XML Author provides a comprehensive authoring environment, enabling content creators like me to focus on content creation while benefiting from features like intelligent content completion and a robust validation engine.
