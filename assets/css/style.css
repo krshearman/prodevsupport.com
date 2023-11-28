@@ -1500,3 +1500,7 @@ footer .credits a {
 .mybtngroup {
   border-radius: 0px;
 }
+
+.colpadding {
+  padding-bottom: 90px;
+}

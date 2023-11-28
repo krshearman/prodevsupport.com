@@ -9,7 +9,7 @@
                     <div class="box-shadow-full">
                         <div class="row">
 
-                            <div class="col-md-2">
+                            <div class="col-md-2 colpadding">
                                 <div class="btn-group-vertical" role="group" aria-label="">
                                     <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writing">ABOUT</a></button>
                                     <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writingabout">INTRO</a></button>
@@ -33,25 +33,29 @@
 
                                 </div>
                             </div>
-                        <div class="col-md-5">
-                            <div class="title-box-2">
-                                <h4 class="title-a">
-                                    DITA Projects
-                                </h4>
+                            <div class="col-md-5">
+                                <div class="title-box-2">
+                                    <h4 class="title-a">
+                                        Dita Projects
+                                    </h4>
+                                </div>
                                 <p class="lead">Click the links below to visit my projects made using the DITA framework.</p>
                                 <ul>
                                     <li class="lead"><a href="<?php echo base_url(); ?>lmindex">LogicMonitor Concepts</a></li>
                                     <li class="lead"><a href="<?php echo base_url(); ?>xmlindex">XML Frameworks</a></li>
+                                    <li class="lead"><a href="<?php echo base_url(); ?>">Trending Topics in Technical Writing</a></li>
+                                    <li class="lead"><a href="<?php echo base_url(); ?>">Placeholder</a></li>
+                                    <li class="lead"><a href="<?php echo base_url(); ?>">Placeholder</a></li>
+                                    <li class="lead"><a href="<?php echo base_url(); ?>">Placeholder</a></li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="col-md-5">
+                            <div class="col-md-5">
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- End About Section -->

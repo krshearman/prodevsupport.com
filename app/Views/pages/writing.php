@@ -8,7 +8,7 @@
                 <div class="col-sm-12">
                     <div class="box-shadow-full">
                         <div class="row">
-                            <div class="col-md-2">
+                            <div class="col-md-2 colpadding">
                                 <div class="btn-group-vertical" role="group" aria-label="">
                                     <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writing">ABOUT</a></button>
                                     <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writingabout">INTRO</a></button>
@@ -24,6 +24,8 @@
                                             <!--<li><a class="dropdown-item" href="#">TEI</a></li>
                                             <li><a class="dropdown-item" href="#">OpenAPI</a></li>-->
                                         </ul>
+                                        <br>
+                                        <br>
                                     </div>
                                     <!--<button type="button" class="btn btn-dark">Blog</button>
                                     <button type="button" class="btn btn-dark">Search</button>
