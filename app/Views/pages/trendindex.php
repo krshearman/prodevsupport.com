@@ -34,20 +34,23 @@
                             <div class="col-md-7 colpadding">
                                 <div class="title-box-2">
                                     <h3 class="title-a">
-                                        Common XML Frameworks Map
+                                        Trending Topics in Technical Writing
                                     </h3>
                                 </div>
 <!--                                <p class="lead title topictitle1">Common XML Frameworks Map</p>
 -->                                <nav>
-                                    <ul class="map lead">
-                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmldita">Decoding DITA: A Journey through History and Applications</a></li>
-                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmldocbook">Deciphering DocBook: A Chronicle of Evolution and Practical Applications</a></li>
-                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmlepub">Unveiling ePub: A Chronicle of Evolution and Ubiquitous Applications</a></li>
-                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmlopenapi">Navigating the OpenAPI Landscape: A Historical Odyssey and Practical Applications</a></li>
-                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmltei">TEI (Text Encoding Initiative): A Historical Odyssey and Diverse Applications</a></li>
-                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmlcommonditaterms">Glossary - Common Dita Terms</a></li>
-                                        <li class="topicref"><a href="<?php echo base_url(); ?>xmlbasicditahowto">Crafting DITA Topics and Maps: A Step-by-Step Guide with Oxygen XML Author</a></li>
-                                    </ul>
+                                        <ul class="map lead">
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendccms">A Comparative Exploration of Quark, Heretto, and MadCap</a></li>
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendopenapi">A Comprehensive Comparison of OpenAPI Swagger and OpenAPI Test Scenario</a></li>
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendmodularity">A Parallel Exploration of Modularity in Technical Writing and Computer Programming</a></li>
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendinclusivity">Ensuring Inclusivity: The Imperative of Accessibility in Modern Technical Documentation</a></li>
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendagiledocs">Evolving with Agility: A Historical Perspective on Agile Documentation</a></li>
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendversioncontrol">Fostering Collaboration: The Power of Tools in Modern Technical Writing</a></li>
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendwordpressgutenberg">Introducing Content Automation with WordPress with Gutenberg</a></li>
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendsinglesourcingmultichannel">Single Sourcing and Multi-Channel Publishing: Transforming Technical Documentation</a></li>
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendquark">Navigating the Landscape of Component Content Management Systems with Quark</a></li>
+                                            <li class="topicref"><a href="<?php echo base_url(); ?>trendcontentful">Unleashing the Power of Contentful's Headless Content Automation</a></li>
+                                        </ul>
                                 </nav>
                             </div>
                             <div class="col-md-3">
@@ -58,8 +61,8 @@
                                     <div class="card-body">
                                         <p>Download ePub and PDF Versions:</p>
                                         <div class="iconinbox iconrow">
-                                            <a href="https://krstechwriting.com/docs/common_xml_frameworks.epub"><ion-icon name="book" size="large"></ion-icon></a>
-                                            <a href="https://krstechwriting.com/docs/common_xml_frameworks.pdf"><ion-icon name="document-text" size="large"></ion-icon></a>
+                                            <a href="https://krstechwriting.com/docs/trendingtechnicalwritingtopics.epub"><ion-icon name="book" size="large"></ion-icon></a>
+                                            <a href="https://krstechwriting.com/docs/trendingtechnicalwritingtopics.pdf"><ion-icon name="document-text" size="large"></ion-icon></a>
                                         </div>
                                     </div>
                                 </div>

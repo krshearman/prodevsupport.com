@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="copyright-box">
-                    <p class="copyright" id="contact">&copy; Copyright 2023 <strong>Kendall Shearman</strong> All Rights Reserved</p>
+                    <p class="copyright" id="contact">&copy; 2023 <strong>Kendall Shearman</strong> All Rights Reserved</p>
 
                     <a target="_blank" href="https://github.com/krshearman"><ion-icon name="logo-github" size="large" class="ion-icon"></ion-icon></a>&nbsp;
                     <a target="_blank" href="https://linkedin.com/in/krshearman"><ion-icon name="logo-linkedin" size="large" class="ion-icon"></ion-icon></a>&nbsp;

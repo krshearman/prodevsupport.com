@@ -50,16 +50,16 @@
                                 </li>
                             </ul>
                             <ul class="lead">
-                                <strong><li>Docbook:</strong>
+                                <strong><li><a href="<?php echo base_url(); ?>docbook">Docbook</a>:</strong>
                                 <br>
                                 <p>Docbook, an XML-based documentation system, allows for the creation of high-quality, print and web-ready documents. Dive into our Docbook samples to experience the flexibility and robustness it brings to our technical communication.
                                 </p>
                                 </li>
                             </ul></ul>
                             <ul class="lead">
-                                <strong><li>ePub</strong>
+                                <strong><li><a href="<?php echo base_url(); ?>epub">ePub & PDF</a>:</strong>
                                 <br>
-                                <p>The ePub format is synonymous with digital publishing, offering a dynamic and adaptable platform for distributing documentation. Our ePub sample (An ebook about Linux) showcases how we can leverage this format to deliver engaging and accessible content.
+                                <p>The ePub format is synonymous with digital publishing, offering a dynamic and adaptable platform for distributing documentation, while Adobe's PDF is the most ubiquitous, universal document format available. You can download the ePub and pdf versions of each DITA project I've created from the main article index.
                                 </p>
                                 </li>
                             </ul>

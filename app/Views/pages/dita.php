@@ -43,10 +43,10 @@
                                 <ul>
                                     <li class="lead"><a href="<?php echo base_url(); ?>lmindex">LogicMonitor Concepts</a></li>
                                     <li class="lead"><a href="<?php echo base_url(); ?>xmlindex">XML Frameworks</a></li>
-                                    <li class="lead"><a href="<?php echo base_url(); ?>">Trending Topics in Technical Writing</a></li>
-                                    <li class="lead"><a href="<?php echo base_url(); ?>">Placeholder</a></li>
-                                    <li class="lead"><a href="<?php echo base_url(); ?>">Placeholder</a></li>
-                                    <li class="lead"><a href="<?php echo base_url(); ?>">Placeholder</a></li>
+                                    <li class="lead"><a href="<?php echo base_url(); ?>trendindex">Trending Topics in Technical Writing</a></li>
+                                    <li class="lead"><a href="<?php echo base_url(); ?>">Coming Soon!</a></li>
+                                    <!--<li class="lead"><a href="<?php /*echo base_url(); */?>">&nbsp;</a></li>
+                                    <li class="lead"><a href="<?php /*echo base_url(); */?>">&nbsp;</a></li>-->
                                 </ul>
                             </div>
                             <div class="col-md-5">

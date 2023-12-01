@@ -31,7 +31,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-10">
+                            <div class="col-md-7 colpadding">
                                 <div class="title-box-2">
                                     <h3 class="title-a">
                                         LogicMonitor Concepts Map
@@ -54,6 +54,22 @@
                                         <li class="topicref"><a href="<?php echo base_url(); ?>lmglossary">Glossary of Terms</a></li>
                                     </ul>
                                 </nav>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card cardwidget border-dark mb-3">
+                                    <!--<div class="card-header">
+                                        Featured
+                                    </div>-->
+                                    <div class="card-body">
+                                        <p>Download ePub and PDF Versions:</p>
+                                        <div class="iconinbox iconrow">
+                                            <a href="https://krstechwriting.com/docs/logicmonitor_concepts_map.epub"><ion-icon name="book" size="large"></ion-icon></a>
+                                            <a href="https://krstechwriting.com/docs/logicmonitor_concepts_map.pdf"><ion-icon name="document-text" size="large"></ion-icon></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

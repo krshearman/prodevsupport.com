@@ -38,6 +38,9 @@
                                     <h4 class="title-a">
                                         DocBook Projects
                                     </h4>
+                                    <ul class="lead">
+                                        <li><a href="https://krstechwriting.com/docs/Creating Your First DocBook 5.pdf" target="_blank">Creating Your First DocBook 5.1 Document</a></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="col-md-5">

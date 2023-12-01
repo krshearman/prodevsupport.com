@@ -38,6 +38,9 @@
                                     <h4 class="title-a">
                                         ePub Projects
                                     </h4>
+                                    <ul class="lead">
+                                        <li>Coming soon!</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="col-md-5">

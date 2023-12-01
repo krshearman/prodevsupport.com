@@ -1474,6 +1474,11 @@ footer .credits a {
   color: #0078ff;
 }
 
+.iconinbox{
+  flex-wrap: nowrap;
+
+}
+
 .myabout{
   margin-top: 80px;
 
@@ -1498,9 +1503,18 @@ footer .credits a {
 }
 
 .mybtngroup {
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .colpadding {
   padding-bottom: 90px;
 }
+
+.cardwidget {
+  --bs-card-border-radius: 0;
+  /*--bs-card-cap-bg: black;*/
+}
+
+/*.iconrow {
+  padding-left: 85px;
+}*/
