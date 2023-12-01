@@ -20,7 +20,7 @@
                                         <ul class="dropdown-menu mybtngroup" aria-labelledby="btnGroupDrop1">
                                             <li><a class="dropdown-item" href="<?php echo base_url(); ?>dita">DITA</a></li>
                                             <li><a class="dropdown-item" href="<?php echo base_url(); ?>docbook">DocBook</a></li>
-                                            <li><a class="dropdown-item" href="<?php echo base_url(); ?>epub">ePub</a></li>
+                                            <!--<li><a class="dropdown-item" href="<?php echo base_url(); ?>epub">ePub</a></li>-->
                                             <!--<li><a class="dropdown-item" href="#">TEI</a></li>
                                             <li><a class="dropdown-item" href="#">OpenAPI</a></li>-->
                                         </ul>

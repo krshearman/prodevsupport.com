@@ -20,7 +20,7 @@
                                         <ul class="dropdown-menu mybtngroup" aria-labelledby="btnGroupDrop1">
                                             <li><a class="dropdown-item" href="<?php echo base_url(); ?>dita">DITA</a></li>
                                             <li><a class="dropdown-item" href="<?php echo base_url(); ?>docbook">DocBook</a></li>
-                                            <li><a class="dropdown-item" href="<?php echo base_url(); ?>epub">ePub</a></li>
+                                            <!--<li><a class="dropdown-item" href="<?php echo base_url(); ?>epub">ePub</a></li>-->
                                             <!--<li><a class="dropdown-item" href="#">TEI</a></li>
                                             <li><a class="dropdown-item" href="#">OpenAPI</a></li>-->
                                         </ul>
@@ -57,7 +57,7 @@
                                 </li>
                             </ul></ul>
                             <ul class="lead">
-                                <strong><li><a href="<?php echo base_url(); ?>epub">ePub & PDF</a>:</strong>
+                                <strong><li>ePub & PDF:</strong>
                                 <br>
                                 <p>The ePub format is synonymous with digital publishing, offering a dynamic and adaptable platform for distributing documentation, while Adobe's PDF is the most ubiquitous, universal document format available. You can download the ePub and pdf versions of each DITA project I've created from the main article index.
                                 </p>
