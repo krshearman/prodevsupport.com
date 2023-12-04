@@ -8,6 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 /*$routes->get('/', 'Home::index');*/
 
 
+$routes->get('blog', 'Blog');
 $routes->get('samples', 'Samples');
 $routes->get('/test', 'Test::test');
 $routes->get('/', 'Pages::index');

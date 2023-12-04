@@ -2,13 +2,16 @@
 
 namespace App\Controllers;
 
+
+
 class Pages extends BaseController
 {
-    public function index(): string
+    public function index()
     {
-        return view('templates/stdheader')
-            . view('pages/home')
-            . view('templates/stdfooter');
+
+        echo view('templates/stdheader');
+        echo view('pages/home');
+        echo view('templates/stdfooter');
     }
 
     public function pages($page): string
