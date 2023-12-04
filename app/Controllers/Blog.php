@@ -5,13 +5,15 @@ namespace App\Controllers;
 use App\Models\BlogModel;
 class Blog extends BaseController
 {
-    function index($slug = 'post')
+    function index()
     {
             $model = new BlogModel();
             $data['news'] = $model->getPosts();
 
             echo view('templates/stdheader', $data);
-            echo view('blog/'.$slug);
+            echo view('blog/post');
             echo view('templates/stdfooter');
     }
+
+
 }
