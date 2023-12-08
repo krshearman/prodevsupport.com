@@ -1,17 +1,20 @@
-<?php namespace App\Models;
+<?php
+
+namespace App\Models;
 
 use CodeIgniter\Model;
 
-class BlogModel extends Model{
+class BlogModel extends Model
+{
     protected $table = 'posts';
 
-    public function getPosts($slug = null){
-        if(!$slug){
-            return $this->findAll();
-        }
-
-        return $this->asArray()
-                    ->where(['slug' => $slug])
-                    ->first();
+    public function getPost($slug): array{
+        $id = $this->where(['slug' => $slug]);
+        return $this->find($id);
     }
+
+    public function getPosts(): array {
+        return $this->findAll();
+    }
+
 }

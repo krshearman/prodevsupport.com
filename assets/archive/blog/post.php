@@ -37,14 +37,14 @@
                             </div>
                             <main role="main" class="lead">
                                 <article role="article" aria-labelledby="ariaid-title1">
-                                    <?php if($news): ?>
-                                        <?php foreach ($news as $newsitem): ?>
-                                            <h3><?= $newsitem['title'] ?></h3>
-                                            <div class="lead"><?= $newsitem['body']?></div>
-                                        <?php endforeach; ?>
-                                    <?php else: ?>
-                                        <p>No posts to display</p>
-                                    <?php endif; ?>
+                                        <?php if($news): ?>
+                                            <?php foreach ($news as $newsitem): ?>
+                                                <h3><?= $newsitem['title'] ?></h3>
+                                                <div class="lead"><?= $newsitem['body']?></div>
+                                            <?php endforeach; ?>
+                                        <?php else: ?>
+                                            <p>No posts to display</p>
+                                        <?php endif; ?>
                                 </article>
                             </main>
                         </div>
@@ -57,9 +57,9 @@
                                     <h4>Latest Posts</h4>
                                     <ul>
                                         <?php if($news): ?>
-                                            <?php foreach ($news as $newsitem): ?>
-                                                <li><?= $newsitem['title'] ?></li>
-                                            <?php endforeach; ?>
+                                        <?php foreach ($news as $newsitem): ?>
+                                            <li><?= $newsitem['title'] ?></li>
+                                        <?php endforeach; ?>
                                         <?php else: ?>
                                             <p>No posts to display</p>
                                         <?php endif; ?>

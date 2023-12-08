@@ -37,14 +37,10 @@
                             </div>
                             <main role="main" class="lead">
                                 <article role="article" aria-labelledby="ariaid-title1">
-                                    <?php if($news): ?>
-                                        <?php foreach ($news as $newsitem): ?>
-                                            <h3><?= $newsitem['title'] ?></h3>
-                                            <div class="lead"><?= $newsitem['body']?></div>
-                                        <?php endforeach; ?>
-                                    <?php else: ?>
-                                        <p>No posts to display</p>
-                                    <?php endif; ?>
+                                    <?php echo "<pre>";
+                                        print_r($post);
+                                        echo "<pre>" ?>
+
                                 </article>
                             </main>
                         </div>
@@ -56,13 +52,7 @@
                                 <div class="card-body">
                                     <h4>Latest Posts</h4>
                                     <ul>
-                                        <?php if($news): ?>
-                                            <?php foreach ($news as $newsitem): ?>
-                                                <li><?= $newsitem['title'] ?></li>
-                                            <?php endforeach; ?>
-                                        <?php else: ?>
-                                            <p>No posts to display</p>
-                                        <?php endif; ?>
+                                        <li>Post 1</li>
                                         <li>Post 2</li>
                                         <li>Post 3</li>
                                         <li>Post 4</li>

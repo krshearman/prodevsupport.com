@@ -1,8 +1,7 @@
 <?php
 
-namespace App\Controllers;
 
-class Samples extends BaseController
+class Samples extends \App\Controllers\BaseController
 {
     public function index($page = 'samplesmain'): string
     {

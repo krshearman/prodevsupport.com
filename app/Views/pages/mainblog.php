@@ -25,7 +25,7 @@
                                         <li><a class="dropdown-item" href="#">OpenAPI</a></li>-->
                                     </ul>
                                 </div>
-                                <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>blog">BLOG</a></button>
+                                <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>mainblog">BLOG</a></button>
                                 <!--<button type="button" class="btn btn-dark">Search</button>
                                 <button type="button" class="btn btn-dark">Index</button>-->
 
@@ -35,7 +35,7 @@
                             <div class="title-box-2">
                                 <h3 class="title-a">Blog</h3>
                             </div>
-                            <main role="main" class="lead">
+                            <main role="main" class="lead minht">
                                 <article role="article" aria-labelledby="ariaid-title1">
                                     <?php if($news): ?>
                                         <?php foreach ($news as $newsitem): ?>
@@ -56,13 +56,7 @@
                                 <div class="card-body">
                                     <h4>Latest Posts</h4>
                                     <ul>
-                                        <?php if($news): ?>
-                                            <?php foreach ($news as $newsitem): ?>
-                                                <li><?= $newsitem['title'] ?></li>
-                                            <?php endforeach; ?>
-                                        <?php else: ?>
-                                            <p>No posts to display</p>
-                                        <?php endif; ?>
+                                        <li>Post 1</li>
                                         <li>Post 2</li>
                                         <li>Post 3</li>
                                         <li>Post 4</li>

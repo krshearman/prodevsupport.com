@@ -25,8 +25,8 @@
                                             <li><a class="dropdown-item" href="#">OpenAPI</a></li>-->
                                         </ul>
                                     </div><br>
-                                    <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>blog">BLOG</a></button>
-                                    <!--<button type="button" class="btn btn-dark">Search</button>
+                                    <!--                                    <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>blog">BLOG</a></button>
+ -->                                    <!--<button type="button" class="btn btn-dark">Search</button>
                                     <button type="button" class="btn btn-dark">Index</button>-->
 
                                 </div>

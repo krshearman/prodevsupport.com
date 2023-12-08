@@ -27,8 +27,8 @@
                                         <br>
                                         <br>
                                     </div>
-                                    <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>blog">BLOG</a></button>
-                                    <!--<button type="button" class="btn btn-dark">Search</button>
+                                    <!--                                    <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>blog">BLOG</a></button>
+ -->                                    <!--<button type="button" class="btn btn-dark">Search</button>
                                     <button type="button" class="btn btn-dark">Index</button>-->
 
                                 </div>
@@ -63,10 +63,10 @@
                                 </p>
                                 </li>
                             </ul>
-                            <ul class="lead">
-                                <strong><li><a href="<?php echo base_url(); ?>blog">Blog</a></strong>
+                            <!--<ul class="lead">
+                                <strong><li><a href="<?php /*echo base_url(); */?>blog">Blog</a></strong>
                                 <p>Check out my blog that focuses on technical writing and web development guides and instructional manuals. Powered by CodeIgniter and MySQL</p>
-                            </ul>
+                            </ul>-->
                             <ul class="lead">
                                 <strong><li>Coming Soon</strong>
                                 <p>Future writing samples devoted to an exploration of OpenAPI's Swagger and Test Scenario.</p>

@@ -4,21 +4,19 @@ namespace App\Controllers;
 
 
 use App\Models\BlogModel;
-class Blog extends BaseController
+class Mainblog extends BaseController
 {
 
-    public function post($slug = null)
+    public function mainblog()
     {
         $sess = session();
         $sess->start();
 
-        $slug = $_GET["name"];
-
         $model = new BlogModel();
-        $data['news'] = $model->getPost($slug);
+        $data['news'] = $model->getPosts();
 
         echo view('templates/stdheader', $data);
-        echo view('blog/post');
+        echo view('pages/mainblog');
         echo view('templates/stdfooter');
     }
 

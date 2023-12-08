@@ -1,8 +1,7 @@
 <?php
 
-namespace App\Controllers;
 
-class Test extends BaseController
+class Test extends \App\Controllers\BaseController
 {
     public function test(): string
     {
