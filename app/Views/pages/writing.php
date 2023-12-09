@@ -27,8 +27,8 @@
                                         <br>
                                         <br>
                                     </div>
-                                    <!--                                    <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>blog">BLOG</a></button>
- -->                                    <!--<button type="button" class="btn btn-dark">Search</button>
+                                                                        <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>mainblog">BLOG</a></button>
+                                    <!--<button type="button" class="btn btn-dark">Search</button>
                                     <button type="button" class="btn btn-dark">Index</button>-->
 
                                 </div>

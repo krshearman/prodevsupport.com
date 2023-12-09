@@ -14,7 +14,7 @@ class BlogModel extends Model
     }
 
     public function getPosts(): array {
-        return $this->findAll();
+        return $this->findAll(5);
     }
 
 }

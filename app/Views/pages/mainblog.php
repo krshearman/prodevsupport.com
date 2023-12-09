@@ -35,7 +35,11 @@
                             <div class="title-box-2">
                                 <h3 class="title-a">Blog</h3>
                             </div>
-                            <main role="main" class="lead minht">
+                            <p class="lead">
+                                Welcome! Below you will see the last five blog posts displayed in reverse chronological order.
+                            </p>
+                            <br>
+                            <main role="main" class="lead">
                                 <article role="article" aria-labelledby="ariaid-title1">
                                     <?php if($news): ?>
                                         <?php foreach ($news as $newsitem): ?>
@@ -56,11 +60,9 @@
                                 <div class="card-body">
                                     <h4>Latest Posts</h4>
                                     <ul>
-                                        <li>Post 1</li>
-                                        <li>Post 2</li>
-                                        <li>Post 3</li>
-                                        <li>Post 4</li>
-                                        <li>Post 5</li>
+                                        <?php foreach ($news as $newsitem): ?>
+                                            <li><a href="<?php echo base_url(); ?>blog?name=<?=$newsitem['slug'] ?>"><?= $newsitem['title'] ?></a></li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </div>
                             </div>

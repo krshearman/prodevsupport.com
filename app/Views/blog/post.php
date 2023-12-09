@@ -25,21 +25,23 @@
                                         <li><a class="dropdown-item" href="#">OpenAPI</a></li>-->
                                     </ul>
                                 </div>
-                                <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>blog">BLOG</a></button>
+                                <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>mainblog">BLOG</a></button>
                                 <!--<button type="button" class="btn btn-dark">Search</button>
                                 <button type="button" class="btn btn-dark">Index</button>-->
 
                             </div>
                         </div>
-                        <div class="col-md-7 colpadding">
+                        <div class="col-md-10 colpadding">
                             <div class="title-box-2">
-                                <h3 class="title-a">Blog</h3>
+                                <?php if($news): ?>
+                                <?php foreach ($news as $newsitem): ?>
+                                    <h3 class="title-a"><?= $newsitem['title'] ?></h3>
+                                <?php endforeach; ?>
                             </div>
                             <main role="main" class="lead">
                                 <article role="article" aria-labelledby="ariaid-title1">
-                                    <?php if($news): ?>
                                         <?php foreach ($news as $newsitem): ?>
-                                            <h3><?= $newsitem['title'] ?></h3>
+
                                             <div class="lead"><?= $newsitem['body']?></div>
                                         <?php endforeach; ?>
                                     <?php else: ?>
@@ -47,27 +49,9 @@
                                     <?php endif; ?>
                                 </article>
                             </main>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card cardwidget border-dark mb-3">
-                                <!--<div class="card-header">
-                                    Featured
-                                </div>-->
-                                <div class="card-body">
-                                    <h4>Latest Posts</h4>
-                                    <ul>
-                                        <?php if($news): ?>
-                                            <?php foreach ($news as $newsitem): ?>
-                                                <li><?= $newsitem['title'] ?></li>
-                                            <?php endforeach; ?>
-                                        <?php else: ?>
-                                            <p>No posts to display</p>
-                                        <?php endif; ?>
-                                        <li>Post 2</li>
-                                        <li>Post 3</li>
-                                        <li>Post 4</li>
-                                        <li>Post 5</li>
-                                    </ul>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button type="button" class="btn btn-outline-dark"><a href="<?php echo base_url(); ?>mainblog">BACK TO MAIN BLOG</a></button>
                                 </div>
                             </div>
                         </div>
