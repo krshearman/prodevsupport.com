@@ -14,7 +14,19 @@ class BlogModel extends Model
     }
 
     public function getPosts(): array {
-        return $this->findAll(5);
+        $posts = $this->findAll(5);
+        $start = 0;
+        $end = sizeof($posts)-1;
+        while ($start < $end)
+        {
+            $temp = $posts[$start];
+            $posts[$start] = $posts[$end];
+            $posts[$end] = $temp;
+            $start++;
+            $end--;
+        }
+        return $posts;
+
     }
 
 }

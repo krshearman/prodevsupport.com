@@ -9,6 +9,7 @@
                 <div class="box-shadow-full">
                     <div class="row">
                         <div class="col-md-2 colpadding">
+
                             <div class="btn-group-vertical" role="group" aria-label="">
                                 <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writing">ABOUT</a></button>
                                 <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writingabout">INTRO</a></button>
@@ -28,8 +29,30 @@
                                 <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>mainblog">BLOG</a></button>
                                 <!--<button type="button" class="btn btn-dark">Search</button>
                                 <button type="button" class="btn btn-dark">Index</button>-->
-
                             </div>
+                            <!--<div class="dropdown-menu d-block position-static border-0 pt-0 mx-0 rounded-3 shadow overflow-hidden w-280px" data-bs-theme="dark">
+                                <form class="p-2 mb-2 bg-dark border-bottom border-dark">
+                                    <input type="search" class="form-control bg-dark" autocomplete="false" placeholder="Type to filter...">
+                                </form>
+                                <ul class="list-unstyled mb-0">
+                                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="<?php echo base_url(); ?>writing">
+                                            <ion-icon name="document-text-outline" size="small"></ion-icon>About
+                                        </a></li>
+                                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href=""<?php echo base_url(); ?>writingabout"">
+                                            <ion-icon name="document-text-outline" size="small"></ion-icon>Intro
+                                        </a></li>
+                                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="<?php echo base_url(); ?>dita">
+                                            <ion-icon name="document-text-outline" size="small"></ion-icon>DITA
+                                        </a></li>
+                                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="<?php echo base_url(); ?>docbook">
+                                            <ion-icon name="document-text-outline" size="small"></ion-icon>DocBook
+                                        </a></li>
+                                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="<?php echo base_url(); ?>mainblog">
+                                            <ion-icon name="document-text-outline" size="small"></ion-icon>Blog
+                                        </a></li>
+
+                                </ul>
+                            </div>-->
                         </div>
                         <div class="col-md-7 colpadding">
                             <div class="title-box-2">
