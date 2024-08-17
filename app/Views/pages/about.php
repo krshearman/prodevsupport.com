@@ -348,8 +348,8 @@
                         <div class="card-body">
                             <img class="card-img-top" src="/assets/img/writing.jpg" alt="Card image cap">
                             <h5 class="card-title">Writing Samples</h5>
-                            <p class="card-text">You can view samples of my technical content in this section.</p>
-                            <a href="<?php echo base_url(); ?>writing" target="_blank" class="btn btn-primary">View</a>
+                            <p class="card-text">You can view a sample of my technical content by clicking the button below.</p>
+                            <a href="<?php echo base_url(); ?>commonxmlframeworks.pdf" target="_blank" class="btn btn-primary">View</a>
                         </div>
                     </div>
                 </div>

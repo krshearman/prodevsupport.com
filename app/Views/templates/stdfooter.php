@@ -7,8 +7,8 @@
 
                     <a target="_blank" href="https://github.com/krshearman"><ion-icon name="logo-github" size="large" class="ion-icon"></ion-icon></a>&nbsp;
                     <a target="_blank" href="https://linkedin.com/in/krshearman"><ion-icon name="logo-linkedin" size="large" class="ion-icon"></ion-icon></a>&nbsp;
-                    <a target="_blank" href="mailto:admin@krstechwriting.com"><ion-icon name="mail" size="large" class="ion-icon"></ion-icon></a>&nbsp;
-                    <a target="_blank" href="https://krstechwriting.com/docs/Resume_KendallShearman_2023.pdf"><ion-icon name="document-text" size="large" class="ion-icon"></ion-icon></a>
+                    <a target="_blank" href="mailto:kendall@prodevsupport.com"><ion-icon name="mail" size="large" class="ion-icon"></ion-icon></a>&nbsp;
+                    <a target="_blank" href="https://prodevsupport.com/KendallShearmanResume2024.pdf"><ion-icon name="document-text" size="large" class="ion-icon"></ion-icon></a>
                 </div>
             </div>
         </div>

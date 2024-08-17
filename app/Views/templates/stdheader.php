@@ -48,7 +48,7 @@
                 <li class="dropdown"><a href=""><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="https://github.com/krshearman" target="_blank">CODE</a></li>
-                        <!--<li><a href="<?php /*echo base_url(); */?>writing">WRITING</a></li>-->
+                        <li><a href="<?php echo base_url(); ?>commonxmlframeworks.pdf">WRITING SAMPLE</a></li>
                         <li><a href="https://www.linkedin.com/in/krshearman/#:~:text=all%203%20educations-,Licenses%20%26%20certifications,-Licenses%20%26%20certifications" target="_blank">CERTIFICATIONS</a></li>
                     <!--    <li><a href="#">Blog</a></li> -->
                     <!--    <<li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
