@@ -84,10 +84,12 @@
                                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <ul>
-                                            <li>Replace</li>
-                                            <li>Replace</li>
-                                            <li>Replace</li>
-                                            <li>Replace</li>
+                                            <li>Daily collaboration with large-scale clients to address technical challenges with Apollo GraphQL’s Federation, Router, Studio, and more.</li>
+                                            <li>When migrating from Zendesk to Jira Service Management, I developed the necessary code to integrate a custom form modal,
+                                                facilitating support ticket ingress into JSM. This involved several languages, including Kotlin, React, and the query language GraphQL.</li>
+                                            <li>Developed the structure of the Confluence Knowledge Base for the Technical Support Hub and contributed articles to it.</li>
+                                            <li>Configured numerous automations and productivity tools to automate our workflows and increase effectiveness.</li>
+                                            <li> Defined cross-functional processes for the support team with other teams in the organization.</li>
                                         </ul>
                                     </div>
                                 </div>
