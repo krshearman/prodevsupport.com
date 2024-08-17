@@ -22,7 +22,7 @@
                                         </p>
                                 </div>
                             <div class="col-md-6">
-                                <img src="/assets/img/techwriting.jpg" alt="" class="img-fluid b-shadow-a">
+                                <img src="/assets/img/programming.JPG" alt="" class="img-fluid b-shadow-a">
                             </div>
                         </div>
                     </div>
