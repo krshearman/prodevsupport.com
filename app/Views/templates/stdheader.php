@@ -48,8 +48,8 @@
                 <li class="dropdown"><a href=""><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="https://github.com/krshearman" target="_blank">CODE</a></li>
-                        <li><a href="<?php echo base_url(); ?>writing">WRITING</a></li>
-                        <li><a href="https://www.credly.com/users/kendall-shearman/badges" target="_blank">CERTIFICATIONS</a></li>
+                        <!--<li><a href="<?php /*echo base_url(); */?>writing">WRITING</a></li>-->
+                        <li><a href="https://www.linkedin.com/in/krshearman/#:~:text=all%203%20educations-,Licenses%20%26%20certifications,-Licenses%20%26%20certifications" target="_blank">CERTIFICATIONS</a></li>
                     <!--    <li><a href="#">Blog</a></li> -->
                     <!--    <<li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
@@ -63,6 +63,13 @@
                     -->
                     </ul>
                 </li>
+                <!--<li class="dropdown"><a href=""><span>WRITING</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="<?php /*echo base_url(); */?>writing" target="_blank">ABOUT</a></li>
+                        <li><a href="<?php /*echo base_url(); */?>mainblog" target="_blank">BLOG</a></li>
+                        <li><a href="<?php /*echo base_url(); */?>dita" target="_blank">TECH WRITING</a></li>
+                    </ul>
+                <li>-->
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

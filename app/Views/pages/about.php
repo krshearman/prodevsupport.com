@@ -15,22 +15,6 @@
                                     <img src="/assets/img/techwrit.jpg" class="img-fluid rounded b-shadow-a" alt="">
                                     <br>
                                     <br>
-                                    <span>L3 SUPPORT</span> <span class="pull-right">90%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>TECHNICAL WRITING</span> <span class="pull-right">95%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>TECHNICAL TRAINING</span> <span class="pull-right">85%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>CODING & REFACTORING</span> <span class="pull-right">75%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -38,20 +22,31 @@
                                     <div class="title-box-2">
                                         <h3 class="title-a">
                                             Kendall Shearman
-
                                         </h3>
-
                                     </div>
                                     <p class="lead">
-                                        After a rewarding career in education, I retrained to enter the field of technology in 2018. Since that time, I’ve made it my highest priority to learn as much as possible in every role, grow my technical skills, and become knowledgeable about a wide variety of industry offerings and newly developed technologies. My last two roles have been delivering L3 technical support for high profile clients. Prior to this, I taught Technical Writing, English Composition & Rhetoric, and Literature at the tertiary level.
-                                    </p>
-                                    <p class="lead">
-                                        Due to my prior experience and education, technical writing became an integral part of each role I’ve had since retraining. My tasks have included developing technical guides, writing standard operating procedure manuals, and creating many other forms of documentation. In addition to being a subject matter expert in writing, I am also experienced in markup languages, such as xml, html, and Markdown, as well as the frameworks in which they’re normally situated.  </p>
-                                    <p class="lead">
-                                        I’m looking forward to further blending my technical skills with my established writing skills as I embark on the next phase of my career. I'm primarily looking for roles in technical writing or CCMS development.
+                                        In my current role, as well as in my two previous positions, I have been
+                                        responsible for providing Level 4 technical support to high-profile clients
+                                        such as The New York Times, Coca-Cola Bottling, Sephora, among many other
+                                        household names. These roles have all involved addressing complex technical
+                                        issues and collaborating closely with development teams. Before transitioning
+                                        into technical support, I taught Technical Writing, English Composition and
+                                        Rhetoric, and Literature at the tertiary level.
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row">
+                            <p class="lead">
+                                My certifications span a wide variety of expertise, including Linux, Kubernetes, Cloud
+                                technologies and more. Further, I have an MA in English and an AAS in Computer
+                                Programming, so I'm adept at communicating to a breadth of stakeholders with varying
+                                degrees of expertise with ease, clarity, and compassion. Not only do I enjoy working on
+                                complex technical problems at the code level, I'm also passionate about documentation and
+                                understand how  to build a knowledge base from the ground up. I'm a great asset at the
+                                product operations level because I can build out processes where needed and test them
+                                accordingly.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -82,29 +77,46 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        LogicMonitor: Premier Support Engineer <br>
-                                        11/22 – currently
+                                        ApolloGraphQL: Senior Technical Support Engineer <br>
+                                        04/24 – Currently
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <ul>
-                                            <li>Providing quarterly written report reviewing customer environments and highlighting violations of best practices.</li>
-                                            <li>Responsible for planning, creating, and maintaining team’s technical troubleshooting articles in our Confluence Knowledge Base.</li>
-                                            <li>Working with high profile customers to resolve complex infrastructure monitoring issues as their main technical point of contact within the organization.</li>
+                                            <li>Replace</li>
+                                            <li>Replace</li>
+                                            <li>Replace</li>
+                                            <li>Replace</li>
                                         </ul>
-
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        LogicMonitor: Premier Support Engineer <br>
+                                        11/22 – 03/24
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Providing quarterly written report reviewing customer environments and highlighting violations of best practices.</li>
+                                            <li>Responsible for planning, creating, and maintaining team’s technical troubleshooting articles in our Confluence Knowledge Base.</li>
+                                            <li>Working with high profile customers to resolve complex infrastructure monitoring issues as their main technical point of contact within the organization.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         LogicMonitor: Senior Support Engineer <br>
                                         11/21 – 11/22
                                     </button>
                                 </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>Maintained and developed organizational knowledge-based documentation.</li>
@@ -117,12 +129,12 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         Wipro @ Facebook : Senior Project Engineer <br>
                                         01/21 – 11/21
                                     </button>
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>Developed and improved the existing onboarding documentation materials needed to train new hires.</li>
@@ -137,12 +149,12 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                         Wipro @ Facebook : Test Project Engineer <br>
                                         07/20 – 01/21
                                     </button>
                                 </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>Ran weekly tests to compare app size of beta versions of mobile application for Android and iOS.</li>
@@ -154,12 +166,12 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         Prior Experience <br>
                                         2012 - 2021
                                     </button>
                                 </h2>
-                                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>2018 - 2021: Austin Community Collect Student (AAS Computer Programming)</li>
@@ -201,7 +213,7 @@
                         </div>
                         <div class="counter-num">
                             <p data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="counter purecounter"></p>
-                            <span class="counter-text">YEARS TECHNICAL WRITING EXPERIENCE</span>
+                            <span class="counter-text">YEARS DOCUMENTATION & TRAINING EXPERIENCE</span>
                         </div>
                     </div>
                 </div>
@@ -348,7 +360,7 @@
                             <img class="card-img-top" src="/assets/img/certs.jpg" alt="Card image cap">
                             <h5 class="card-title">Certifications</h5>
                             <p class="card-text">6 relevant industry certifications and 3 baccalaureate degrees.</p>
-                            <a href="https://www.credly.com/users/kendall-shearman/badges" target="_blank" class="btn btn-primary">View</a>
+                            <a href="https://www.linkedin.com/in/krshearman/#:~:text=all%203%20educations-,Licenses%20%26%20certifications,-Licenses%20%26%20certifications" target="_blank" class="btn btn-primary">View</a>
                         </div>
                     </div>
                 </div>

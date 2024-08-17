@@ -9,29 +9,7 @@
                     <div class="box-shadow-full">
                         <div class="row">
                             <div class="col-md-2 colpadding">
-                                <div class="btn-group-vertical" role="group" aria-label="">
-                                    <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writing">ABOUT</a></button>
-                                    <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>writingabout">INTRO</a></button>
-                                    <!--                                    <button type="button" class="btn btn-dark">Samples</button>
-                                    -->                                    <div class="btn-group" role="group">
-                                        <button id="btnGroupDrop1" type="button" class="btn btn-outline-dark mybtngroup dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                            SAMPLES
-                                        </button>
-                                        <ul class="dropdown-menu mybtngroup" aria-labelledby="btnGroupDrop1">
-                                            <li><a class="dropdown-item" href="<?php echo base_url(); ?>dita">DITA</a></li>
-                                            <li><a class="dropdown-item" href="<?php echo base_url(); ?>docbook">DocBook</a></li>
-                                            <!--<li><a class="dropdown-item" href="<?php echo base_url(); ?>epub">ePub</a></li>-->
-                                            <!--<li><a class="dropdown-item" href="#">TEI</a></li>
-                                            <li><a class="dropdown-item" href="#">OpenAPI</a></li>-->
-                                        </ul>
-                                        <br>
-                                        <br>
-                                    </div>
-                                                                        <button type="button" class="btn btn-outline-dark mybtngroup"><a href="<?php echo base_url(); ?>mainblog">BLOG</a></button>
-                                    <!--<button type="button" class="btn btn-dark">Search</button>
-                                    <button type="button" class="btn btn-dark">Index</button>-->
-
-                                </div>
+                                <!-- spacing -->
                             </div>
                         <div class="col-md-10">
                             <div class="title-box-2">

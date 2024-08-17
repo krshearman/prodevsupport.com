@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #6ea8fe;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -1499,7 +1499,11 @@ footer .credits a {
 }
 
 .minht {
-  height: 500px;
+  height: 250px;
+}
+
+.minhtdita {
+  height: 700px;
 }
 
 .mybtngroup {

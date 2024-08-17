@@ -22,7 +22,7 @@
 
 
     <!-- Template Main CSS File -->
-    <link href="/assets/css/style.css?version=5" rel="stylesheet">
+    <link href="/assets/css/style.css?version=7" rel="stylesheet">
 
 </head>
 

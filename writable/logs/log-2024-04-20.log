@@ -1,0 +1,648 @@
+INFO - 2024-04-20 17:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 17:57:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-04-20 17:57:33 --> Undefined array key "name"
+in APPPATH\Controllers\Blog.php on line 15.
+ 1 APPPATH\Controllers\Blog.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\krstechwriting.testing.local\\app\\Controllers\\Blog.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Blog->post('')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 17:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 17:57:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 17:57:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 17:57:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 17:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 17:57:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-04-20 17:57:53 --> Undefined array key "name"
+in APPPATH\Controllers\Blog.php on line 15.
+ 1 APPPATH\Controllers\Blog.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\krstechwriting.testing.local\\app\\Controllers\\Blog.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Blog->post('')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 18:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 18:04:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 18:04:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 18:04:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:06:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-04-20 19:06:45 --> Undefined array key "name"
+in APPPATH\Controllers\Blog.php on line 15.
+ 1 APPPATH\Controllers\Blog.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\krstechwriting.testing.local\\app\\Controllers\\Blog.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Blog->post('')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:06:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:06:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:06:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:16:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:16:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:16:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:16:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:16:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:16:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:22:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:22:15 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:22:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:25:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:25:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:25:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:25:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:25:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:25:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:42:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:42:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:42:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:53:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:53:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:53:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:53:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:53:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:53:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:53:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:53:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:53:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 19:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 19:53:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-04-20 19:53:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'krste532_ciblog', 3306, '', 0)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#10 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\krstechwriting.testing.local\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\krstechwriting.testing.local\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\krstechwriting.testing.local\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\krstechwriting.testing.local\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\krstechwriting.testing.local\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\krstechwriting.testing.local\app\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+#7 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+#8 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+#9 C:\xampp\htdocs\krstechwriting.testing.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krstechwriting.testing.local\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-20 19:53:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll(5)
+ 6 APPPATH\Controllers\Mainblog.php(16): App\Models\BlogModel->getPosts()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mainblog->mainblog()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainblog))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-20 20:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 20:11:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-04-20 20:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 20:12:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-04-20 20:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 20:32:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-04-20 23:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 23:03:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-04-20 23:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-20 23:54:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
